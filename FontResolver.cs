@@ -2,7 +2,7 @@
 using System.Diagnostics;
 using System.IO;
 
-namespace cs_con_framework_pdfsharp {
+namespace cs_con_pdfsharp {
     class FontResolver : IFontResolver {
 		byte[] IFontResolver.GetFont(string faceName)
 		{
