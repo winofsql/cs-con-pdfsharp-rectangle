@@ -2,7 +2,7 @@
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
 
-namespace cs_con_framework_pdfsharp {
+namespace cs_con_pdfsharp {
     class Program {
         static void Main(string[] args)
         {
