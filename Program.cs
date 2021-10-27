@@ -1,13 +1,14 @@
 using PdfSharp;
 using PdfSharp.Drawing;
 using PdfSharp.Pdf;
+using System.Text;
 
-namespace cs_con_pdfsharp {
+namespace cs_con_pdfsharp_rectangle {
     class Program {
         static void Main(string[] args)
         {
             Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
-        
+
             PdfSharp.Fonts.GlobalFontSettings.FontResolver = new FontResolver();
 
             PdfDocument document = new PdfDocument();
