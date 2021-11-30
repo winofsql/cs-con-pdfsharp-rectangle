@@ -10,3 +10,6 @@
 
 ## TTC 分解
 [UniteTTC](http://yozvox.web.fc2.com/556E697465545443.html)
+
+
+※ 創英角ポップ体 商用 で検索 ( Office に付いてくるフォントは商用不可 )
