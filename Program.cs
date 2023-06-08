@@ -49,6 +49,19 @@ namespace cs_con_pdfsharp_rectangle {
             gfx.DrawString(text[4], font2, XBrushes.Black, 50, font.Height + 400);
             gfx.DrawString(text[5], font2, XBrushes.Black, 50, font.Height + 450);
             gfx.DrawString(text[6], font2, XBrushes.Black, 50, font.Height + 500);
+            
+            XStringFormat xsf1 = new XStringFormat();
+            XStringFormat xsf2 = new XStringFormat();
+            xsf2.Alignment = XStringAlignment.Far;
+
+            int lineStart = 600;
+
+            gfx.DrawString("社員コード", font3, XBrushes.Black, new XRect(new XPoint(50, font3.Height + lineStart), new XSize(100,font3.Height)), xsf1);
+            gfx.DrawString("給与", font3, XBrushes.Black, new XRect(new XPoint(150, font3.Height + lineStart), new XSize(100,font3.Height)), xsf2);
+
+            gfx.DrawString("0001", font3, XBrushes.Black, new XRect(new XPoint(50, font3.Height + lineStart + 20), new XSize(100,font3.Height)), xsf1);
+            gfx.DrawString("1234567", font3, XBrushes.Black, new XRect(new XPoint(150, font3.Height + lineStart + 20), new XSize(100,font3.Height)), xsf2);
+            
             document.Save("sample.pdf");
         }
     }
