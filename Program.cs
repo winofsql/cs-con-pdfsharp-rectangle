@@ -29,6 +29,7 @@ namespace cs_con_pdfsharp_rectangle {
 
             XFont font = new XFont("ラノベPOP", 40, XFontStyle.Regular);
             XFont font2 = new XFont("ラノベPOP", 24, XFontStyle.Regular);
+            XFont font3 = new XFont("ラノベPOP", 14, XFontStyle.Regular);
 
             string[] text = {
                 "ある日の事でございます。御釈迦様は極楽の",
